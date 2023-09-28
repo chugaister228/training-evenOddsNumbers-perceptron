@@ -1,0 +1,15 @@
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\bin\Debug\net6.0\EvenOddNumbersPerceptronStuding.exe
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\bin\Debug\net6.0\EvenOddNumbersPerceptronStuding.deps.json
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\bin\Debug\net6.0\EvenOddNumbersPerceptronStuding.runtimeconfig.json
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\bin\Debug\net6.0\EvenOddNumbersPerceptronStuding.dll
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\bin\Debug\net6.0\EvenOddNumbersPerceptronStuding.pdb
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\obj\Debug\net6.0\EvenOddNumbersPerceptronStuding.csproj.AssemblyReference.cache
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\obj\Debug\net6.0\EvenOddNumbersPerceptronStuding.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\obj\Debug\net6.0\EvenOddNumbersPerceptronStuding.AssemblyInfoInputs.cache
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\obj\Debug\net6.0\EvenOddNumbersPerceptronStuding.AssemblyInfo.cs
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\obj\Debug\net6.0\EvenOddNumbersPerceptronStuding.csproj.CoreCompileInputs.cache
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\obj\Debug\net6.0\EvenOddNumbersPerceptronStuding.dll
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\obj\Debug\net6.0\refint\EvenOddNumbersPerceptronStuding.dll
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\obj\Debug\net6.0\EvenOddNumbersPerceptronStuding.pdb
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\obj\Debug\net6.0\EvenOddNumbersPerceptronStuding.genruntimeconfig.cache
+D:\Projects\AI\EvenOddNumbersPerceptronStuding\EvenOddNumbersPerceptronStuding\obj\Debug\net6.0\ref\EvenOddNumbersPerceptronStuding.dll
