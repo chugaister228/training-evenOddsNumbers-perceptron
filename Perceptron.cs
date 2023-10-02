@@ -39,7 +39,7 @@ namespace EvenOddNumbersPerceptronStuding
             return (sum >= 0) ? 1 : 0;
         }
 
-        public void Train(int[] inputs, int targetOutput)
+        private void Train(int[] inputs, int targetOutput)
         {
             int prediction = ProcessInputs(inputs);
 
@@ -48,17 +48,39 @@ namespace EvenOddNumbersPerceptronStuding
             {
                 weights[i] += learningRate * (targetOutput - prediction) * inputs[i];
             }
-            teta += learningRate * (targetOutput - prediction);
 
-            // Output info
-            Console.WriteLine();
-            Console.Write("Weights: ");
-            foreach(var weight in weights)
+            // Updating teta
+            teta += learningRate * (targetOutput - prediction);
+        }
+
+        private bool CheckResult(int[] labels, int[][]trainingData)
+        {
+            bool result = true;
+            int y = 0;
+
+            for (int i = 0; i < labels.Length; i++)
             {
-                Console.Write(weight.ToString("0.00") + " ");
+                y = ProcessInputs(trainingData[i]);
+
+                if (y != labels[i])
+                {
+                    result = false;
+                }
             }
-            Console.Write(" Teta: " + teta.ToString("0.00"));
-            //
+
+            return result;
+        }
+
+        public void StartTraining(int[] labels, int[][] trainingData)
+        {
+            while (!CheckResult(labels, trainingData))
+            {
+                for (int i = 0; i < trainingData.Length; i++)
+                {
+                    Train(trainingData[i], labels[i]);
+                    GetInfo();
+                }
+            }
         }
 
         public void GetInfo()
@@ -72,6 +94,8 @@ namespace EvenOddNumbersPerceptronStuding
             }
             Console.WriteLine();
             Console.WriteLine("Teta: " + teta);
+            Console.WriteLine();
+            Console.WriteLine("---------");
         }
     }
 }
